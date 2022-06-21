@@ -1,0 +1,70 @@
+body{
+    /* background-color: red; */
+}
+h1{
+    font-family: 'Raleway' , 'san-serif';
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -2px;
+    color: #757575;
+    margin-top: 30px;
+}
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+    
+}
+form input , 
+form textarea{
+    margin-bottom: 5px;
+   
+}
+.contact-form input{
+    padding-left: 33px; 
+
+}
+h1{
+    text-transform: capitalize;
+}
+
+form textarea{
+    height: 180px !important;
+}
+ form .fa-user ,
+ form .fa-envelope ,
+ form .fa-phone 
+
+ {
+position: relative;
+top:-35px;
+left: 13px;
+color: #999;
+}
+ form .fa-asterisk
+{
+    color: red ;
+    font-size: 12px;
+    position: relative;
+    top: -37px;
+    left: 457px;
+ 
+}
+form .msgstar{
+   top:-189px;
+   left: 482px;
+}
+.fa-paper-plane{
+    position: relative;
+   left: -141px;
+   color: white;
+   top:0px;
+}
+form .custome-alert{
+    padding:5px 10px;
+    margin-top: 0;
+    display: none;
+    color: red;
+    /* background-color: green; */
+}
+
